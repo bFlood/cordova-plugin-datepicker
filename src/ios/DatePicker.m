@@ -29,7 +29,7 @@
 
 @implementation DatePicker
 
-#define isIPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define isIPhone  YES  //(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define ANIMATION_DURATION 0.3
 
 #pragma mark - UIDatePicker
